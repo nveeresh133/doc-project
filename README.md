@@ -1,4 +1,3 @@
-# doc-project
 # Node.js documentation
 ## _Table of contents_
 - Introduction to the Node.js
@@ -42,10 +41,10 @@ This guide uses the following terms and definitions:
 | Git | A source control management system. You will need a git client if you want to checkout and use the Node.js sources.|
 
 ## Overview of the Project
-### stage-I Creation of VPC and EKS Cluster using Terraform.
+### stage-I Creation of VPC and EKS Cluster using Terraform and GitHub Configuration.
 Initially,we created a EC2 Instance in AWS console and install Terraform software on it. Terraform is an open source infrastructure as code (IaC) software tool,using terraform code we installed VPC(Virtual Private Cloud) and Kubernetes Cluster with one nodegroup with minimum 1 spot machine and maximum 5.
-![alt test](https://miro.medium.com/max/1400/1*9cdatdOvKgu4S_R89qzifA.png)
-
+ >For Installing Terraform software, we used this link https://cloudlinuxtech.com/install-terraform-on-ubuntu-uninstall-terraform/
+ 
 ![alt test](https://miro.medium.com/max/1400/1*9cdatdOvKgu4S_R89qzifA.png) 
 Then, we created a Organisation in GitHub and made two repositories named one as Production-team and another as Development-team. In the Production-team repository,we kept our Project Code.
 
