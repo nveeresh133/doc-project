@@ -1,11 +1,11 @@
-# Node.js documentation
+#Documentation
 ## _Table of contents_
 - Introduction to the Node.js
 - Required Tools
 - Terms and Definitions
 - Overview of Project
 
-## Introduction to the Node.js
+## Introduction
 The Objective of this Project is automating the deployment of given Nodejs web application in different environments like Dev,Qa and Production based on the requiements and using AWS as a cloud Platform and other tools for automation purpose. 
 The Node.js is an open source project maintained on GitHub. To access the sources, report or
 review issues, or contribute to the project, go to https://github.com/nveeresh133/AatmaaniProject.git
@@ -13,7 +13,6 @@ review issues, or contribute to the project, go to https://github.com/nveeresh13
 ## Required Tools
 For Automating and Deploying the Nodejs application we have used some tools like
 - AWS
-- [AWS][df1]
 - Terraform
 - Jenkins
 - Docker
