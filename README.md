@@ -12,7 +12,7 @@ review issues, or contribute to the project, go to https://github.com/nveeresh13
 
 ## Required Tools
 For Automating and Deploying the Nodejs application we have used some tools like
-- [AWS][df1]
+- AWS
 - Terraform
 - Jenkins
 - Docker
