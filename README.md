@@ -140,6 +140,6 @@ After this, we deployed Fluent-bit in a kubernetes cluster as a DaemonSet becaus
 > For Installing Elasticsearch and Kibana,we referred this link
 https://phoenixnap.com/kb/how-to-install-elk-stack-on-ubuntu
 
-For Deploying the Fluent-bit in Cluster, we referred this website
+> For Deploying the Fluent-bit in Cluster, we referred this website
 https://docs.fluentbit.io/manual/v/1.3/installation/kubernetes
 
