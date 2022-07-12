@@ -48,7 +48,6 @@ Initially,we created a EC2 Instance in AWS console and install Terraform softwar
  >For Installing Terraform software, we used this link 
  https://cloudlinuxtech.com/install-terraform-on-ubuntu-uninstall-terraform/
  
-![alt test](https://miro.medium.com/max/1400/1*9cdatdOvKgu4S_R89qzifA.png) 
 Then, we created a Organisation in GitHub and made two repositories named one as Production-team and another as Development-team. In the Production-team repository,we kept our Project Code.
 
 After this,we made Git Branch Protection rules in GitHub.
