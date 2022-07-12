@@ -1,4 +1,3 @@
-https://github.com/nveeresh133/doc-project/blob/main/promotheus%20diagram.drawio
 ![alt text](https://github.com/nveeresh133/doc-project/blob/main/promotheus%20diagram.drawio.png?raw=)
 # Node.Js Documentation
 ## _Table of contents_
