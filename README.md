@@ -136,7 +136,7 @@ Then we installed Kibana software in this Ec2 machine and Kibana is UI tool for 
 
 After this, we deployed Fluent-bit in a kubernetes cluster as a DaemonSet because,Fluent-bit is a  log agent tool will need to run on every node to collect logs from every POD, hence it is deployed as a DaemonSet (a POD that runs on every node of the cluster).When Fluent Bit runs, it will read, parse and filter the logs of every POD and Later it transforms and ships to Elasticsearch backend. In Elasticsearch data are analyzed and later it moves to the Kibana and there the visualization of data takes place.
 
-![alt test](https://miro.medium.com/max/1400/0*PzfG1ZvHdz3S6lYV](https://github.com/nveeresh133/doc-project/blob/main/EFK.drawio.png)
+![alt test](https://github.com/nveeresh133/doc-project/blob/main/EFK.drawio.png)
 > For Installing Elasticsearch and Kibana,we referred this link
 https://phoenixnap.com/kb/how-to-install-elk-stack-on-ubuntu
 For Deploying the Fluent-bit in Cluster, we referred this website
