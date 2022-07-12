@@ -103,7 +103,7 @@ https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html
 
 - [HPA(Horizontal Pod Autoscalar)][df1] - The Kubernetes Horizontal Pod Autoscaler automatically scales the number of pods in a deployment, replication controller, or replica set based on that resource's CPU utilization. This can help your applications scale out to meet increased demand or scale in when resources are not needed, thus freeing up your nodes for other applications. When you set a target CPU utilization percentage, the Horizontal Pod Autoscaler scales your application in or out to try to meet that target. To enable the HPA, we did changes in Prodvalues.yaml file and made HPA enabled in Prod  Environment. 
 
-![alt test]([https://www.kubecost.com/images/hpa-overview.png](https://github.com/nveeresh133/doc-project/blob/main/HPA.drawio.png))
+![alt test](https://github.com/nveeresh133/doc-project/blob/main/HPA.drawio.png))
 > For Installing HPA(Horizontal Pod Autoscalar), we used this link
 https://docs.aws.amazon.com/eks/latest/userguide/horizontal-pod-autoscaler.html
 
