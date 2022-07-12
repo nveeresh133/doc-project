@@ -1,4 +1,4 @@
-![alt text](https://github.com/nveeresh133/doc-project/blob/main/promotheus%20diagram.drawio.png?raw=)
+
 # Node.Js Documentation
 ## _Table of contents_
 - Introduction to the Node.js
@@ -127,7 +127,7 @@ Then, we set some alerts for Kubernetes cluster like, when Pod is pending state,
 > For Setting Required alerts in Aler Manager, we referred this website
 https://awesome-prometheus-alerts.grep.to/rules.html
 
-![alt test](https://github.com/nveeresh133/doc-project/blob/main/promotheus%20diagram.drawio.png?raw=)
+![alt text](https://github.com/nveeresh133/doc-project/blob/main/promotheus%20diagram.drawio.png?raw=)
 
 ### Stage V
 #### Setting Up of Logging Tools like EFK(Elasticsearch,Fluentd-bit,Kibana)
