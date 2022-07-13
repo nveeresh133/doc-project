@@ -42,6 +42,7 @@ This guide uses the following terms and definitions:
 | Git | A source control management system. You will need a git client if you want to checkout and use the Node.js sources.|
 
 ## Overview of the Project
+![alt test](https://github.com/nveeresh133/doc-project/blob/main/prjct.png)
 ### Stage-I 
 #### Creation of VPC and EKS Cluster using Terraform and GitHub Configuration.
 Initially,we created a EC2 Instance in AWS console and install Terraform software on it. Terraform is an open source infrastructure as code (IaC) software tool,using terraform code we installed VPC(Virtual Private Cloud) and Kubernetes Cluster with one nodegroup with minimum 1 spot machine and maximum 5.
@@ -103,7 +104,7 @@ https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html
 
 - [HPA(Horizontal Pod Autoscalar)][df1] - The Kubernetes Horizontal Pod Autoscaler automatically scales the number of pods in a deployment, replication controller, or replica set based on that resource's CPU utilization. This can help your applications scale out to meet increased demand or scale in when resources are not needed, thus freeing up your nodes for other applications. When you set a target CPU utilization percentage, the Horizontal Pod Autoscaler scales your application in or out to try to meet that target. To enable the HPA, we did changes in Prodvalues.yaml file and made HPA enabled in Prod  Environment. 
 
-![alt test](https://github.com/nveeresh133/doc-project/blob/main/HPA.drawio.png))
+![alt test](https://github.com/nveeresh133/doc-project/blob/main/HPA.drawio.png)
 > For Installing HPA(Horizontal Pod Autoscalar), we used this link
 https://docs.aws.amazon.com/eks/latest/userguide/horizontal-pod-autoscaler.html
 
