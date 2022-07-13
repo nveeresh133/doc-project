@@ -92,17 +92,17 @@ In this jenkins job, we used Same script to deploy to prod environment.we Pulled
 ### Stage IV
 #### Deploying Metric server,Cluster Autoscalar and HPA(Horizontal Pod Autoscalar)
 
-- [MetricServer][df1] - Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines. The Metrics server role is it will frequently checking the metrics of every running pods in EKS cluster. The main role of this server is it will help to Horizontal Pod Autoscaler and Vertical Pod Autoscaler.
+- [MetricServer] - Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines. The Metrics server role is it will frequently checking the metrics of every running pods in EKS cluster. The main role of this server is it will help to Horizontal Pod Autoscaler and Vertical Pod Autoscaler.
 
 > Metrics Server can be installed either directly from YAML manifest or via the official Helm chart. To install the latest Metrics Server release from the components.yaml manifest, we run the following command to install metric server.
 kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
 
-- [Cluster Autoscalar][df1] - cluster autoscaler automatically resizes the number of nodes in a given node pool, based on the demands of your workloads. You don't need to manually add or remove nodes or over-provision your node pools. Instead, you specify a minimum and maximum size for the node pool, and the rest is automatic. Cluster Autoscaler typically runs as a Deployment in your cluster.
+- [Cluster Autoscalar] - cluster autoscaler automatically resizes the number of nodes in a given node pool, based on the demands of your workloads. You don't need to manually add or remove nodes or over-provision your node pools. Instead, you specify a minimum and maximum size for the node pool, and the rest is automatic. Cluster Autoscaler typically runs as a Deployment in your cluster.
 
 > For Deploying cluster Autoscalar, we reffered this link
 https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html
 
-- [HPA(Horizontal Pod Autoscalar)][df1] - The Kubernetes Horizontal Pod Autoscaler automatically scales the number of pods in a deployment, replication controller, or replica set based on that resource's CPU utilization. This can help your applications scale out to meet increased demand or scale in when resources are not needed, thus freeing up your nodes for other applications. When you set a target CPU utilization percentage, the Horizontal Pod Autoscaler scales your application in or out to try to meet that target. To enable the HPA, we did changes in Prodvalues.yaml file and made HPA enabled in Prod  Environment. 
+- [HPA(Horizontal Pod Autoscalar)] - The Kubernetes Horizontal Pod Autoscaler automatically scales the number of pods in a deployment, replication controller, or replica set based on that resource's CPU utilization. This can help your applications scale out to meet increased demand or scale in when resources are not needed, thus freeing up your nodes for other applications. When you set a target CPU utilization percentage, the Horizontal Pod Autoscaler scales your application in or out to try to meet that target. To enable the HPA, we did changes in Prodvalues.yaml file and made HPA enabled in Prod  Environment. 
 
 ![alt test](https://github.com/nveeresh133/doc-project/blob/main/HPA.drawio.png)
 > For Installing HPA(Horizontal Pod Autoscalar), we used this link
