@@ -24,8 +24,8 @@ For Automating and Deploying the Nodejs application we have used some tools like
 - Grafana
 - EFK
 
-## Tools and Definitions
-This guide uses the following terms and definitions:
+## Tools and Description
+This guide uses the following terms and description:
  | Tools | Description |
 | ------ | ------ |
 | AWS | AWS Amazon Web Services (AWS) is a secure cloud services platform, offering compute power, database storage, content delivery and other functionality to help businesses scale and grow. |
