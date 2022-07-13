@@ -3,7 +3,7 @@
 ## _Table of contents_
 - Introduction to the Node.js
 - Required Tools
-- Tools and Definitions
+- Tools and Description
 - Overview of Project
 
 ## Introduction to the Node.js
@@ -26,7 +26,7 @@ For Automating and Deploying the Nodejs application we have used some tools like
 
 ## Tools and Definitions
 This guide uses the following terms and definitions:
- | Tools | Definition |
+ | Tools | Description |
 | ------ | ------ |
 | AWS | AWS Amazon Web Services (AWS) is a secure cloud services platform, offering compute power, database storage, content delivery and other functionality to help businesses scale and grow. |
 |Terraform |Terraform is a tool for building infrastructure with various technologies including AWS, Azure or GCP. Terraform enables you to create and manage infrastructure with code and codes can be stored in version control. |
